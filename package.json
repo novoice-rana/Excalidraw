@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^22.15.3",
     "jsonwebtoken": "^9.0.3"
   }
 }
