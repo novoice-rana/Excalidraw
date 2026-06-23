@@ -1,4 +1,4 @@
-import { CreateRoomSchema ,CreateUserSchema,SigninSchema} from './../../../packages/common/src/types';
+import { CreateRoomSchema ,CreateUserSchema,SigninSchema} from '@repo/common/config';
 
 import express  from "express";
 import jwt from "jsonwebtoken";
