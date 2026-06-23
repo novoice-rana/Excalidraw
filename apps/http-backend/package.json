@@ -20,7 +20,8 @@
     "@repo/typescript-config": "workspace:*",
     "@types/ws": "^8.18.1",
     "ws": "^8.21.0",
-    "@repo/backend-common":"workspace:*"
+    "@repo/backend-common":"workspace:*",
+    "@repo/common":"workspace:*"
 
   }
 }
