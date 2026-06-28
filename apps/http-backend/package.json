@@ -15,13 +15,15 @@
     "@repo/typescript-config": "workspace:*",
     "@types/express": "^5.0.6",
     "express": "^5.2.1"
+    
   },
   "devDependencies": {
     "@repo/typescript-config": "workspace:*",
     "@types/ws": "^8.18.1",
     "ws": "^8.21.0",
     "@repo/backend-common":"workspace:*",
-    "@repo/common":"workspace:*"
+    "@repo/common":"workspace:*",
+    "@repo/db":"workspace:*"
 
   }
 }

@@ -1,10 +1,15 @@
+import {primsaClient} from "@repo/db/clients";
+
 import { CreateRoomSchema ,CreateUserSchema,SigninSchema} from "@repo/common/types";
+
 
 import express  from "express";
 import jwt from "jsonwebtoken";
 
 import { middleware } from "./middleware";
 import { JWT_SECRET } from '@repo/backend-common/config';
+
+
 
 
 const app=express();
