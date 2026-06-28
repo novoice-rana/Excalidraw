@@ -1,4 +1,5 @@
-import {primsaClient} from "@repo/db/clients";
+import { prismaClient } from '@repo/db/client';
+
 
 import { CreateRoomSchema ,CreateUserSchema,SigninSchema} from "@repo/common/types";
 
