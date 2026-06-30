@@ -37,6 +37,7 @@ app.post("/signup",async (req,res)=>{
    })
     
    } catch (error) {
+    console.log(error)
     res.status(403).json({
         message:"User email already exist"
     })
